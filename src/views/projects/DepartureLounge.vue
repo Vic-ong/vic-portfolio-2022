@@ -80,7 +80,7 @@
           <div class="space-y-3 text-center">
             <ImageCanvas
               :src="img.pmTrello"
-              height="28rem"
+              :height="28"
               shadow
             />
             <div>
@@ -90,7 +90,7 @@
           <div class="space-y-3 text-center">
             <ImageCanvas
               :src="img.pmBullseye"
-              height="27rem"
+              :height="27"
               shadow
             />
             <div>
@@ -100,7 +100,7 @@
           <div class="space-y-3 text-center">
             <ImageCanvas
               :src="img.pmPriority"
-              height="30rem"
+              :height="30"
               shadow
             />
             <div>
@@ -115,7 +115,7 @@
           </div>
           <ImageCanvas
             :src="img.controlPanelModel"
-            height="25rem"
+            :height="25"
           />
           <MediaPlayer
             :src="footage.controlPanel"
@@ -132,7 +132,7 @@
           </div>
           <ImageCanvas
             :src="img.dialogFlow"
-            height="27rem"
+            :height="27"
             shadow
           />
           <ImageCanvas
@@ -150,7 +150,7 @@
           </div>
           <ImageCanvas
             :src="img.dialogScript"
-            height="37rem"
+            :height="37"
           />
         </SubSection>
 

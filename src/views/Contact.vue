@@ -28,6 +28,16 @@
           >
             vickyocc53@gmail.com
           </a>
+          for all communications.
+        </div>
+        <div>
+          Feel free to check out my up-to-date
+          <a
+            href="https://drive.google.com/file/d/161cbQa_guJdmQe3Oy3JCplWtEm18VQpR/view?usp=sharing"
+            target="_blank"
+          >
+            résumé.
+          </a>
         </div>
       </div>
       

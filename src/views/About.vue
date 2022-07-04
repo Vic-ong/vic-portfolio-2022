@@ -25,7 +25,7 @@
 
       const tools = [
         [
-          'Unreal Engine',
+          'Unreal Engine 4 & 5',
           'Python',
           'MAYA',
           'Substance Painter',
@@ -73,7 +73,7 @@
 
           <div class="space-y-1">
             <div class="underline">
-              Tech & tools I'm actively working with:
+              Tech & tools I actively work with:
             </div>
             <div class="flex space-x-10 text-base">
               <div

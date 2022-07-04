@@ -153,7 +153,7 @@
               >
                 <ImageCanvas
                   :src="img.website"
-                  height="25rem"
+                  :height="25"
                 />
               </a>
             </div>

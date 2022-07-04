@@ -3,10 +3,12 @@
   import { useRoute } from 'vue-router';
   import { useBreakpoints } from '@/composables/breakpoints';
   import { scrollTo } from '@/composables/utils';
+  import { footage } from '@/constants/assets';
   import SplashIntro from '@/views/SplashIntro.vue';
   import About from '@/views/About.vue';
   import Projects from '@/views/Projects.vue';
   import Contact from './Contact.vue';
+  import MediaPlayer from '@/components/MediaPlayer.vue';
 
   export default defineComponent({
     name: 'Home',
@@ -15,6 +17,7 @@
       About,
       Projects,
       Contact,
+      MediaPlayer,
     },
     setup() {
       const bp = useBreakpoints();
@@ -45,6 +48,7 @@
         scrollTo,
         bp,
         navs,
+        footage,
       };
     },
   });
@@ -82,16 +86,46 @@
       </PageContainer>
     </div>
 
+    <div id="reel">
+      <PageContainer>
+        <div class="w-16 my-5 border-b-4 border-primary" />
+        <div class="space-y-6">
+          <Title>Demo reel</Title>
+          <MediaPlayer
+            :src="footage.reel"
+            :muted="false"
+            :autoplay="false"
+            :loop="false"
+            show-controls
+          />
+        </div>
+      </PageContainer>
+    </div>
+
     <div id="projects">
       <PageContainer>
         <div class="w-16 my-5 border-b-4 border-primary" />
         <Projects />
       </PageContainer>
     </div>
+    
     <div id="contact">
       <PageContainer>
         <div class="w-16 my-5 border-b-4 border-primary" />
         <Contact />
+      </PageContainer>
+    </div>
+
+    <div id="stack">
+      <PageContainer>
+        <div class="w-16 my-5 border-b-4 border-primary" />
+        <div class="space-y-6">
+          <Title>Application stack</Title>
+          <div>
+            This portfolio web app is built using Vite, Vue 3, Typescript, and Tailwind on the frontend.
+            I use Firebase for storage management and deployment.
+          </div>
+        </div>
       </PageContainer>
     </div>
   </div>

@@ -47,16 +47,22 @@ export const img = {
   },
 
   encanto: {
-    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fthumbnail2.png?alt=media&token=51f8ca04-70ae-43ea-b9ad-4c3b6903a453',
-    hero: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fhero1.jpg?alt=media&token=4914647c-40a6-412b-b4b8-ce1f1b01f447',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fthumbnail.jpg?alt=media&token=9bc68828-820a-4c46-a911-6ce6f1a7d05c',
+    hero: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fhero.jpg?alt=media&token=b55d996f-39be-4e34-8118-37f1170d9ea2',
     mainLoop: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fpbd-main-loop.png?alt=media&token=5e4726ae-2dc4-4ac8-8c45-0ce6cc4e642f',
     encantoScene: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fencanto%20scene.gif?alt=media&token=2955502a-7195-4ef1-bb2f-0b33a32d0083',
     encantoResult: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fencanto.gif?alt=media&token=ee661ce5-3ca0-4682-ac6e-1d0948ff094b',
+    wdasRoofSimualtionTool: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fwdas-roof-simulation-tool.png?alt=media&token=25f4a557-4d98-499a-9de6-d324aecfe10d',
     ropeAndWind: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2FropeAndWind.gif?alt=media&token=2eb2852b-c5d7-4ce2-ae3d-4cf10623899b',
     inflatableAirTube: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2FinflatableAirTube.gif?alt=media&token=01c9c9ff-ecbe-49b0-bb1d-407efff78f06',
     projectConstraints: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fproject-constraints.png?alt=media&token=d1a83ac8-0f52-464c-aed4-797dabed5b51',
     partitionRatioEquation: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Froof-partition-ratio-equation.png?alt=media&token=7428d2b1-2cf2-496f-a987-55ea9688c5d0',
+    partitionRatioGraph: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Froof-partition-ratio-graph.png?alt=media&token=3a7cd582-2041-4732-b472-44994a478dad',
     partitionRatio: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Froof-partition-ratio.png?alt=media&token=dd1c351c-0ec3-4182-a861-58c74ca984e7',
+    constraintCalc: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fconstraints-calc.png?alt=media&token=1e1a3bf2-f071-4d6a-80be-9d638fe700fc',
+    constraintMoving: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fconstraints-moving.png?alt=media&token=3f1e914d-dbc0-41c8-92d3-7ff3ab5b7844',
+    parameters: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fparameters.png?alt=media&token=338f4790-61c7-4e2f-9975-802077387281',
+    proposedVAndP: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Fanimation%2Fencanto%2Fproposed-v-p.png?alt=media&token=55d4e14e-954a-400d-af31-7dfd6f7f1669',
   },
 
   lyght: {
@@ -70,6 +76,7 @@ export const img = {
 };
 
 export const footage = {
+  reel: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2FVic_ShowReel_2022.mp4?alt=media&token=6bf34a96-1af8-46d1-9910-cf5e7386e822',
   cotn: {
     previs: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Funreal%2Fcotn%2Ffootage-previs.mp4?alt=media&token=e3328b09-cdaa-4832-8493-5b50e2a912b3',
     btsKnifeThrow: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Funreal%2Fcotn%2Ffootage-bts-knifethrow.mp4?alt=media&token=f5df172f-93bc-49f4-9498-57ee65331528',

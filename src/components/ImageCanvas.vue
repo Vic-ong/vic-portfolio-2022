@@ -1,5 +1,6 @@
 <script lang="ts">
   import { defineComponent, computed } from 'vue';
+  import { useBreakpoints } from '@/composables/breakpoints';
 
   export default defineComponent({
     name: 'ImageCanvas',
@@ -9,8 +10,8 @@
         required: true,
       },
       height: {
-        type: String,
-        default: '20rem',
+        type: Number,
+        default: 20,
       },
       shadow: {
         type: Boolean,
@@ -18,9 +19,11 @@
       },
     },
     setup(props) {
+      const bp = useBreakpoints();
+
       return {
         imgStyle: computed(() => ({
-          height: props.height,
+          height: bp.value.mdAndAbove ? `${props.height}rem` : 'auto',
         })),
       };
     },

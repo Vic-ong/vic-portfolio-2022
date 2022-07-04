@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { defineComponent } from 'vue';
+  import { useBreakpoints } from '@/composables/breakpoints';
+import { defineComponent } from 'vue';
 
   export default defineComponent({
     name: 'MediaPlayer',
@@ -28,6 +29,17 @@
         type: Boolean,
         default: true,
       },
+      height: {
+        type: Number,
+        default: 30,
+      },
+    },
+    setup() {
+      const bp = useBreakpoints();
+
+      return {
+        bp,
+      };
     },
   });
 </script>
@@ -35,7 +47,7 @@
 <template>
   <div>
     <video
-      height="30rem"
+      :height="bp.mdAndAbove ? `${height}rem` : `${height * 2 / 3}rem`"
       :autoplay="autoplay"
       :controls="showControls"
       :muted="muted"

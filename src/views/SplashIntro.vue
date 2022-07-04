@@ -36,7 +36,7 @@
         </div>
         <div>
           <div class="font-bold tracking-wider uppercase text-primary text-md md-above:text-2xl typewriter">
-            full-stack & unreal engine dev
+            unreal engine & full stack dev
           </div>
         </div>
       </div>

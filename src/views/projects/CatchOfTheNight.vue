@@ -199,7 +199,7 @@
           <div class="space-y-3">
             <ImageCanvas
               :src="img.shaderOutlinerLeft"
-              height="25rem"
+              :height="25"
             />
             <div class="text-center">
               Draw left outline around an object
@@ -208,7 +208,7 @@
           <div class="space-y-3">
             <ImageCanvas
               :src="img.shaderOutlinerLeftNormal"
-              height="25rem"
+              :height="25"
             />
             <div class="text-center">
               Draw left outline along the normal map
@@ -222,7 +222,7 @@
           </div>
           <ImageCanvas
             :src="img.shaderOutlinerCullingExclude"
-            height="25rem"
+            :height="25"
           />
           <div>
             I then configure the post-processing material for exposure adjustment and color grading to achieve the film-like visual. Motion blur is also added to remove the sharp animation that would've been be jarring to see in a film.
@@ -233,11 +233,11 @@
           </div>
           <ImageCanvas
             :src="img.shaderResult"
-            height="45rem"
+            :height="45"
           />
           <ImageCanvas
             :src="img.shaderResult2"
-            height="45rem"
+            :height="45"
           />
         </SubSection>
       </Section>

@@ -22,12 +22,6 @@
           routeName: 'projects/encanto',
         },
         {
-          title: 'Virtual Departure Lounge',
-          caption: 'A guided immersive virtual tour to showcase volumetric capture technologies',
-          img: img.departurelounge.thumbnail,
-          routeName: 'projects/departurelounge',
-        },
-        {
           title: 'Terrarium',
           caption: 'Mobile-based city simulation sandbox for players to develop and manage a floating city sustainably',
           img: img.terrarium.thumbnail,
@@ -35,9 +29,15 @@
         },
         {
           title: 'Wildwood',
-          caption: 'Vertical slice of an action RPG game of a skunk\'s adventure forming alliances to rise against a gruelling pack of coyotes',
+          caption: 'An action RPG vertical slice where a group of animals rise against a gruelling pack of coyotes to take back their forest',
           img: img.wildwood.thumbnail,
           routeName: 'projects/wildwood',
+        },
+        {
+          title: 'Virtual Departure Lounge',
+          caption: 'A guided immersive virtual tour to showcase volumetric capture technologies',
+          img: img.departurelounge.thumbnail,
+          routeName: 'projects/departurelounge',
         },
         {
           title: 'Lyght Co.',
