@@ -17,7 +17,7 @@
         title: 'Wildwood',
         desc: 'Wildwood is an action RPG vertical slice where a raccoon, a skunk, a cat goes on an adventure forming alliances to rise against a gruelling pack of coyotes.',
         objective: 'The goal is to build a proof of concept of an animal-based action RPG with a tag team combat feature, battle strategy development, and a quest system.',
-        img: img.unreal.wildwood.hero,
+        img: img.wildwood.hero,
         role: 'Unreal Engine developer, Project manager',
         tools: 'Unreal Engine 4 (Recently upgraded to UE5)',
         duration: '3 months',
@@ -151,7 +151,7 @@
 
       return {
         scrollTo,
-        img: img.unreal.wildwood,
+        img: img.wildwood,
         footage: footage.wildwood,
         projectInfo,
         contributions,

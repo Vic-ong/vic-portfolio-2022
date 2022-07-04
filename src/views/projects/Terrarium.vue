@@ -19,7 +19,7 @@
         title: 'Terrarium',
         desc: 'Terrarium is a mobile-based city simulation game for players to develop and manage a floating city sustainably.',
         objective: 'The goal is to build a proof of concept for a city simulation game to educate people on sustainable city planning through immersive gameplay and guided elements.',
-        img: img.unreal.terrarium.hero,
+        img: img.terrarium.hero,
         role: 'Unreal Engine developer',
         tools: 'Unreal Engine 4 (Recently upgraded to UE5), Figma, Vue 3, Tailwind, Firebase',
         duration: '3 months',
@@ -36,7 +36,7 @@
 
       return {
         scrollTo,
-        img: img.unreal.terrarium,
+        img: img.terrarium,
         footage: footage.terrarium,
         projectInfo,
         contributions,

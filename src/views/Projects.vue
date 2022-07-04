@@ -12,37 +12,37 @@
         {
           title: 'Catch Of The Night (Ongoing)',
           caption: 'An interactive animated short of a battle between a chef and a cat, for the last fish in the restaurant',
-          img: img.unreal.cotn.thumbnail,
+          img: img.cotn.thumbnail,
           routeName: 'projects/cotn',
         },
         {
           title: 'Encanto Roof Simulation',
           caption: 'Reimplement the roof animations from Disney\'s Encanto scene with Position Based Dynamics',
-          img: img.animation.encanto.thumbnail2,
+          img: img.encanto.thumbnail,
           routeName: 'projects/encanto',
         },
         {
           title: 'Virtual Departure Lounge',
           caption: 'A guided immersive virtual tour to showcase volumetric capture technologies',
-          img: img.unreal.departurelounge.thumbnail2,
+          img: img.departurelounge.thumbnail,
           routeName: 'projects/departurelounge',
         },
         {
           title: 'Terrarium',
           caption: 'Mobile-based city simulation sandbox for players to develop and manage a floating city sustainably',
-          img: img.unreal.terrarium.thumbnail,
+          img: img.terrarium.thumbnail,
           routeName: 'projects/terrarium',
         },
         {
           title: 'Wildwood',
           caption: 'Vertical slice of an action RPG game of a skunk\'s adventure forming alliances to rise against a gruelling pack of coyotes',
-          img: img.unreal.wildwood.thumbnail,
+          img: img.wildwood.thumbnail,
           routeName: 'projects/wildwood',
         },
         {
           title: 'Lyght Co.',
           caption: 'An impact investing platform to connect retail buyers with solar energy producers',
-          img: img.web.lyght.thumbnail2,
+          img: img.lyght.thumbnail,
           routeName: 'projects/lyght',
         },
       ]);

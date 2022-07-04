@@ -19,7 +19,7 @@
         title: 'Lyght',
         desc: 'The Lyght app is an impact investing platform to connect retail buyers with solar energy producers and for administrators to manage their business operations.',
         objective: 'The goal of this project is to create a simple flow for customers to order solar assets on the platform and for the sales team to manage their leads.',
-        img: img.web.lyght.hero1,
+        img: img.lyght.hero,
         role: 'Software developer, Product manager',
         tools: 'Vue 2, Vuetify, NodeJS, Firebase',
         duration: '8 months',
@@ -38,7 +38,7 @@
 
       return {
         scrollTo,
-        img: img.web.lyght,
+        img: img.lyght,
         projectInfo,
         contributions,
       };

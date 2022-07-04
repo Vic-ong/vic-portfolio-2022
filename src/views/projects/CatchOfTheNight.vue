@@ -19,7 +19,7 @@
         title: 'Catch Of The Night',
         desc: 'Catch Of The Night is an interactive animated short of a battle between a chef and a cat, for the last fish in the restaurant.',
         objective: 'The goal is to produce a realtime animated short with interactive elements and customizable characters. The short must be ready to be published on the client\'s platform by the end of the project.',
-        img: img.unreal.cotn.hero,
+        img: img.cotn.hero,
         role: 'Unreal Engine developer, Co-producer',
         tools: 'Unreal Engine 5, MAYA, Substance Painter, Trello',
         duration: '3 months',
@@ -59,7 +59,7 @@
 
       return {
         scrollTo,
-        img: img.unreal.cotn,
+        img: img.cotn,
         footage: footage.cotn,
         projectInfo,
         contributions,

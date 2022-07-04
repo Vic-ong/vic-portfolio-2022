@@ -19,7 +19,7 @@
         title: 'Virtual Departure Lounge',
         desc: 'Virtual Departure Lounge is a guided immersive virtual tour to showcase their volumetric capture technologies and the services Departure Lounge offer.',
         objective: 'The goal is to build a fully-functional virtual tour for senior product managers in entertainment industries who are seeking to improve efficiency and reduce the cost of virtual productions while creating true-to-life models.',
-        img: img.unreal.departurelounge.hero2,
+        img: img.departurelounge.hero,
         role: 'Unreal Engine developer, Product manager',
         tools: 'Unreal Engine 4, MAYA, Figma, Trello',
         duration: '3 months',
@@ -38,7 +38,7 @@
 
       return {
         scrollTo,
-        img: img.unreal.departurelounge,
+        img: img.departurelounge,
         footage: footage.departurelounge,
         projectInfo,
         contributions,

@@ -17,7 +17,7 @@
         title: 'Encanto Roof Simulation',
         desc: 'A WebGL project attempting to implement Matthias Müller\'s 2006 paper on Position Based Dynamics to recreate the roof animation in Disney\'s Encanto movie.',
         objective: 'The goal is to create a useful tool for animators and artists by providing creative freedom through the abstraction of the implementation into simple and useful parameters that would be meaningful for them. The abstraction for enabling procedural generation is deemed necessary and pivotal to film studios as they often work with tight deadlines.',
-        img: img.animation.encanto.hero1,
+        img: img.encanto.hero,
         role: 'Software developer',
         tools: 'WebGL, Javascript',
         duration: '1 month',
@@ -32,7 +32,7 @@
 
       return {
         scrollTo,
-        img: img.animation.encanto,
+        img: img.encanto,
         projectInfo,
         contributions,
       };
