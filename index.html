@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;800&family=Ms+Madi&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vic Ong</title>
+</head>
+
+<body>
+  <!-- Adjust height to account for safe area in mobile view -->
+  <script>
+    function appHeight() {
+      const doc = document.documentElement
+      doc.style.setProperty('--vh', (window.innerHeight * .01) + 'px');
+    }
+    window.addEventListener('resize', appHeight);
+    appHeight();
+  </script>
+  <style>
+    body,html {
+      margin: 0;
+      padding: 0;
+    }
+    * {
+        box-sizing: border-box;
+    }
+  </style>
+
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

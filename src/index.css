@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #app {
+    @apply font-default text-lg md-above:text-xl text-black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    text-decoration: none;
+    @apply text-link;
+  }
+
+  i {
+    @apply flex justify-center items-center;
+  }
+
+  img {
+    @apply bg-transparent;
+  }
+
+  button {
+    @apply h-10 px-10 shadow-md rounded-md cursor-pointer text-sm bg-primary text-white-darker;
+    @apply duration-150 ease-in-out transform focus:outline-none active:scale-95;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+  }
+
+  /* .h-screen-adjusted {
+    height: calc(100vh - 5rem);
+  } */
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari and Opera */
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  /* Typography */
+  .heading {
+    @apply font-bold text-3xl;
+  }
+
+  .heading-2 {
+    @apply font-bold text-2xl;
+  }
+
+  .title {
+    @apply font-bold text-lg;
+  }
+
+  /* Link underscore animation */
+  .highlight {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#E7EBEB, #E7EBEB);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .4s ease-in-out;
+  }
+
+  .highlight:hover {
+    background-size: 100% 3px;
+    background-position: 0 100%
+  }
+
+  .highlight-active {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#E7EBEB, #E7EBEB);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .4s ease-in-out;
+    background-size: 100% 3px;
+    background-position: 0 100%
+  }
+}
