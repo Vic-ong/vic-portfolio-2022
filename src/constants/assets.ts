@@ -83,6 +83,7 @@ export const footage = {
     i1CameraTransition: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Funreal%2Fcotn%2Ffootage-i1-camera_transition.mp4?alt=media&token=5db7bfd3-6ef2-462f-8118-395229994bc9',
     i1OutcomeComparison: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Funreal%2Fcotn%2Ffootage-i1-outcome_comparison.mp4?alt=media&token=a2c37c43-840b-4e75-881c-41ccbaa6d794',
     shaderTimeline: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Funreal%2Fcotn%2Ffootage-shader.mp4?alt=media&token=23238c26-f871-4b8a-b07e-c0acde6dc807',
+    persistence: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Funreal%2Fcotn%2Ffootage-persistence.mp4?alt=media&token=b5c3f405-3ae2-4326-8423-7326e8be1663',
   },
 
   departurelounge: {

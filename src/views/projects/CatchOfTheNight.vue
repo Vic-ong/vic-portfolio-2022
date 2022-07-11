@@ -27,9 +27,10 @@
       };
 
       const contributions = [
-        'Create and manage the production roadmap to ensure that we\'re hitting the key milestones',
+        'Manage the production roadmap and run sprints to aim toward delivering a robust product timely',
         'Maintain Gitlab code repository to ensure we have structured development flow and clean pipelines',
         'Implement the pre-visualization (previs) for the film',
+        'Create a persistence system for users to customize characters and watch them in the film',
         'Develop a scene manager service that maintains and play the sequences',
         'Develop a mini-game interactive sequence that smoothly transitions between sequences',
         'Develop the shader and post-processing setup for the film\'s real-time rendering',
@@ -138,6 +139,38 @@
           />
           <MediaPlayer
             :src="footage.btsKnifeThrow"
+            :autoplay="false"
+            :loop="false"
+            show-controls
+          />
+        </SubSection>
+
+        <SubSection title="Persistence system">
+          <div>
+            One of the deliverables is that users watching the film on the website should be able to customize how the characters look and bring that into the film.
+            Since we are working with realtime rendering and is built using Unreal Engine, I utilize the tool Unreal Engine has already built for us via Pixel Streaming.
+          </div>
+          <div>
+            According to the Pixel Streaming documentation, it starts a web signaling server that streams data packet and the client side can simply receive the data with
+            a subscription pattern. Unreal Engine provides a default client side HTML where it just displays the film in an iframe. Technically, this can also be done with
+            any client side HTML as long as the iframe source is tied to the pixel streaming content.
+          </div>
+          <div>
+            So, I decided to create an single page application (SPA) by using the Vite + VueJS + Tailwind stack where I can overlay my button components on top of the pixel
+            streaming content. I also created listeners to receive data from the signaling server and post messages to the iframe to send data to the signaling server.
+          </div>
+          <div>
+            Features that must be included to create this persistence system:
+          </div>
+          <List
+            :items="[
+              'When a user selects between characters, Unreal should switch the camera view to the current character',
+              'When a user selects a customization, Unreal should update the character texture/mesh accordingly',
+              'When a user press play, Unreal should play the film with the selected customizations'
+            ]"
+          />
+          <MediaPlayer
+            :src="footage.persistence"
             :autoplay="false"
             :loop="false"
             show-controls
