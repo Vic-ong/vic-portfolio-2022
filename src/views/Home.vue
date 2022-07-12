@@ -8,7 +8,6 @@
   import About from '@/views/About.vue';
   import Projects from '@/views/Projects.vue';
   import Contact from './Contact.vue';
-  import MediaPlayer from '@/components/MediaPlayer.vue';
 
   export default defineComponent({
     name: 'Home',
@@ -17,7 +16,6 @@
       About,
       Projects,
       Contact,
-      MediaPlayer,
     },
     setup() {
       const bp = useBreakpoints();
@@ -86,7 +84,7 @@
       </PageContainer>
     </div>
 
-    <div id="reel">
+    <!-- <div id="reel">
       <PageContainer>
         <div class="w-16 my-5 border-b-4 border-primary" />
         <div class="space-y-6">
@@ -100,7 +98,7 @@
           />
         </div>
       </PageContainer>
-    </div>
+    </div> -->
 
     <div id="projects">
       <PageContainer>
