@@ -27,15 +27,5 @@
         type="video/mp4"
       >
     </video>
-    <!-- <video
-      :height="bp.mdAndAbove ? `50rem` : `${30 * 2 / 3}rem`"
-      autoplay
-      controls
-    >
-      <source
-        :src="footage.reel"
-        type="video/mp4"
-      >
-    </video> -->
   </div>
 </template>
