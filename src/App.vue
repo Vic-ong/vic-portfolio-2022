@@ -39,29 +39,6 @@
       />
     </transition>
   </router-view>
-  <!-- <div
-    class="relative"
-    :class="fixedTopPanel ? 'h-screen w-screen' : 'h-screen w-screen overflow-y-scroll'"
-  >
-    <TopPanel
-      v-if="currentRoute.name !== 'home'"
-      class="z-50"
-      :class="fixedTopPanel ? 'fixed' : ''"
-    />
-    <div class="z-10">
-      <router-view v-slot="{ Component, route }">
-        <transition
-          name="fade"
-          mode="out-in"
-        >
-          <component
-            :is="Component"
-            :key="route.path"
-          />
-        </transition>
-      </router-view>
-    </div>
-  </div> -->
 </template>
 
 <style>

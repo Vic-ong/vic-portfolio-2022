@@ -55,7 +55,7 @@ import { defineComponent } from 'vue';
     >
       <source
         :src="src"
-        type="video/mp4"
+        :type="type"
       >
     </video>
   </div>

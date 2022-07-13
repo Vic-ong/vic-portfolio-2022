@@ -76,7 +76,10 @@ export const img = {
 };
 
 export const footage = {
-  reel: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2FVic_ShowReel_2022.mp4?alt=media&token=6bf34a96-1af8-46d1-9910-cf5e7386e822',
+  reels: {
+    v1: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2FVic_ShowReel_2022.mp4?alt=media&token=6bf34a96-1af8-46d1-9910-cf5e7386e822',
+    v2: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2FShowReel_v2.mp4?alt=media&token=0d83ab57-6fe4-406c-a86b-854127902909',
+  },
   cotn: {
     previs: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Funreal%2Fcotn%2Ffootage-previs.mp4?alt=media&token=e3328b09-cdaa-4832-8493-5b50e2a912b3',
     btsKnifeThrow: 'https://firebasestorage.googleapis.com/v0/b/my-portfolio-45469.appspot.com/o/public%2Fportfolio-2022%2Funreal%2Fcotn%2Ffootage-bts-knifethrow.mp4?alt=media&token=f5df172f-93bc-49f4-9498-57ee65331528',

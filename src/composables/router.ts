@@ -2,6 +2,7 @@ import { App } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/Home.vue';
 import About from '@/views/AboutDetails.vue';
+import Reel from '@/views/Reel.vue';
 
 import DepartureLounge from '@/views/projects/DepartureLounge.vue';
 import CatchOfTheNight from '@/views/projects/CatchOfTheNight.vue';
@@ -20,6 +21,11 @@ const routes = [
     name: 'about',
     path: '/about',
     component: About,
+  },
+  {
+    name: 'reel',
+    path: '/reel',
+    component: Reel,
   },
   // projects
   {
