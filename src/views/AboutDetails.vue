@@ -86,8 +86,9 @@
           skills: [
             'Unreal Engine',
             'MAYA',
+            'Python',
+            'C++',
             'NodeJS',
-            'Firebase',
           ],
         },
       ]);
@@ -114,19 +115,27 @@
         <div class="pt-5 lg-above:grid lg-above:grid-cols-3 lg-above:gap-10">
           <div class="col-span-2 space-y-5">
             <div>
-              Born in a small town called Port Dickson, Malaysia, where I'd just be 5 mins walk away from the beach. I moved to the US in 2013 to pursue my bachelor's in Mechanical Engineering but
-              funny enough, I became very interesed in computer science on my first job at Disney World. I eventually made the switch to software development through self-learning and utilizing resources
-              from the company—I've been a sofware developer ever since!
+              Born in a small, quaint town called Port Dickson located in the south of Malaysia, where the beach is just a 5-minute walk away from my parent's house.
+              I moved to the US in 2013 to pursue my bachelor's in Mechanical Engineering but I became very interested in computer science during my first job at
+              Disney World. I was, fortunately, able to get an app development project from my manager to develop an attraction reliability tool for the theme parks.
+              Eventually, I made the switch to software development through online resources and learning from the seniors in the company—I've been a software developer ever since!
             </div>
 
             <div>
-              Currently, I'm pursuing my Master's in Digital Media, focusing on development in the 3D space with Unreal Engine.
-              <span class="font-bold">I develop cinematic and interactive experiences i.e. animated films, games, and virtual tours</span>
-              by collaborating with artists, designers, and writers to materialize creative visions.
+              Currently, I'm pursuing my Master's in Digital Media, focusing on developing tools for and creating content using Unreal Engine and MAYA.
+              <span class="font-bold">I strive to develop useful tools for Digital Content Creation (DCC) applications and creating interactive experiences</span>
+              by collaborating with artists, designers, and writers to materialize creative visions in the animation/film/VFX industry.
             </div>
 
             <div>
-              In the past, I've built web applications and APIs for companies of various industries (entertainment, consulting, fintech, and e-commerce). Outside of work, you'd mostly likely find me winding down with outdoorsy stuff such as photography, team sports, and café hopping!
+              In the past, I've built web applications and APIs for companies in various industries (entertainment, consulting, fintech, and e-commerce) using tools such as
+              Vue, React, Node, Python, AWS, Firebase, and Terraform. Outside of work, you'd mostly likely find me winding down with outdoorsy stuff such as team sports, café hopping or
+              <router-link
+                to="/portraits"
+                class="items-center space-x-1 text-black"
+              >
+                photography!
+              </router-link>
             </div>
 
             <div>

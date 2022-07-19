@@ -18,8 +18,7 @@
           return dayjs().diff(dayjs('01-01-2017'), 'year', true).toFixed(1);
         } catch (err) {
           console.error(err);
-          const d = new Date();
-          return d.getFullYear() - 2017;
+          return 5;
         }
       });
 
@@ -58,17 +57,13 @@
       <div class="lg-above:grid lg-above:grid-cols-3 lg-above:gap-10">
         <div class="col-span-2 space-y-5">
           <div>
-            I develop
-            <span class="font-semibold">cinematic and interactive experiences i.e. animations, games, and virtual tours.</span>
+            I develop tools for
+            <span class="font-semibold">cinematic and interactive experiences i.e. animations, films, VFX.</span>
             I really enjoy collaborating with artists, designers, and writers to materialize creative visions.
           </div>
 
           <div>
-            In addition, I have
-            <span class="font-semibold">
-              {{ yearsOfExp }} years
-            </span>
-            of fullstack development work experience in web and microservices architecture.
+            In addition, I have {{ yearsOfExp }} years of fullstack development work experience in web and microservices architecture.
           </div>
 
           <div class="space-y-1">

@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/Home.vue';
 import About from '@/views/AboutDetails.vue';
 import Reel from '@/views/Reel.vue';
+import Portraits from '@/views/Portraits.vue';
 
 import DepartureLounge from '@/views/projects/DepartureLounge.vue';
 import CatchOfTheNight from '@/views/projects/CatchOfTheNight.vue';
@@ -26,6 +27,11 @@ const routes = [
     name: 'reel',
     path: '/reel',
     component: Reel,
+  },
+  {
+    name: 'portraits',
+    path: '/portraits',
+    component: Portraits,
   },
   // projects
   {

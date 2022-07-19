@@ -1,0 +1,26 @@
+// https://drive.google.com/uc?export=view&id=1U-RO4pOch70Gejf9uJ8GlnDuZpkILYgS
+
+export const portraits = [
+  'https://drive.google.com/file/d/1Mn1bJXiiejs2_Pl9wuetiJvwv4CejXgd/view?usp=sharing',
+  'https://drive.google.com/file/d/1BXbAlPHZJppKw23SDwHWu8sgcAXqrs1I/view?usp=sharing',
+  'https://drive.google.com/file/d/1qKzPyB7r2LWxX08C1YezMTwmC7oZL7fO/view?usp=sharing',
+  'https://drive.google.com/file/d/1cFNeghBwGR6VJvIyETFU_sUNDlNxYzMb/view?usp=sharing',
+  'https://drive.google.com/file/d/1BhJFL8uRgt6LDxiXjJSI4Lp7ZvmShkzs/view?usp=sharing',
+  'https://drive.google.com/file/d/1nn_blxuK9yGw_kv25wxjCFxBass-aDsU/view?usp=sharing',
+  'https://drive.google.com/file/d/1OAz7A-56BKOL8wcQxwO2979mob974VdH/view?usp=sharing',
+  'https://drive.google.com/file/d/1ce4dm6-mbuCEBbwgLzbn5JUR6jXgDDHY/view?usp=sharing',
+  'https://drive.google.com/file/d/1NMDld6uI-ZhnYiHpNaOzUPHm8NiibX71/view?usp=sharing',
+  'https://drive.google.com/file/d/1R4XiJEGJpOBFIL0wL2T_U3wGEOdmSdIf/view?usp=sharing',
+  'https://drive.google.com/file/d/1lwzAIlINz-BfiKWN8CsTLlJF5yIBPvmc/view?usp=sharing',
+  'https://drive.google.com/file/d/1eJ-gkKU8LGwlvgU4RNrFP7xfxfbipFUy/view?usp=sharing',
+  'https://drive.google.com/file/d/10RW-0M0fSM1hiG92SY-obaqiKBdhZhhK/view?usp=sharing',
+  'https://drive.google.com/file/d/1FeWklQ3FAGO6wVyA4RFq-wKVyNWVVihx/view?usp=sharing',
+  'https://drive.google.com/file/d/1EawOJfsNjQJDDmdR057EJfhfuV0Fc8if/view?usp=sharing',
+  'https://drive.google.com/file/d/1g8YVexl_3nL1Ztzq-FjTg2KYpHaMw580/view?usp=sharing',
+  'https://drive.google.com/file/d/1xyy2FTq2Pog-QXoc4zUoMCJxGLoSp6ZW/view?usp=sharing',
+  'https://drive.google.com/file/d/1sFPC6FuBwkEZCXBPvnlSU1Kw8zs2cHeD/view?usp=sharing',
+  'https://drive.google.com/file/d/1Ykoubwa6zqhjK4aurNYInMpoYhL5Db4K/view?usp=sharing',
+  'https://drive.google.com/file/d/1wtByVRLYikRywAclaLFbX-qelPUk-NR3/view?usp=sharing',
+  'https://drive.google.com/file/d/1W9ZsOL0Pjn-X0wt_iXPaXIxcVgu5Qwgr/view?usp=sharing',
+  'https://drive.google.com/file/d/1ox4d6TRC3tEtakPa0_BAk7smPaDVyBzS/view?usp=sharing',
+];
