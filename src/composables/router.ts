@@ -28,11 +28,11 @@ const routes = [
     path: '/reel',
     component: Reel,
   },
-  {
-    name: 'portraits',
-    path: '/portraits',
-    component: Portraits,
-  },
+  // {
+  //   name: 'portraits',
+  //   path: '/portraits',
+  //   component: Portraits,
+  // },
   // projects
   {
     name: 'projects/cotn',

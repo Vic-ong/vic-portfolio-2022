@@ -129,13 +129,13 @@
 
             <div>
               In the past, I've built web applications and APIs for companies in various industries (entertainment, consulting, fintech, and e-commerce) using tools such as
-              Vue, React, Node, Python, AWS, Firebase, and Terraform. Outside of work, you'd mostly likely find me winding down with outdoorsy stuff such as team sports, café hopping or
-              <router-link
+              Vue, React, Node, Python, AWS, Firebase, and Terraform. Outside of work, you'd mostly likely find me winding down with outdoorsy stuff such as team sports, café hopping or photography!
+              <!-- <router-link
                 to="/portraits"
                 class="items-center space-x-1 text-black"
               >
                 photography!
-              </router-link>
+              </router-link> -->
             </div>
 
             <div>
